@@ -1,0 +1,48 @@
+// prettier-ignore
+
+module.exports = {
+    extends: [
+      'tslint-config-standard',
+      'tslint-react',
+      'tslint-eslint-rules',
+      'tslint-config-prettier',
+    ],
+    defaultSeverity: 'warning',
+    rules: {
+      'no-floating-promises': true,
+      // 'no-unused-variable': true,
+      'prefer-const': true,
+      'no-parameter-reassignment': true,
+      'space-before-function-paren': false,
+      'quotemark': false,
+      'trailing-comma': false,
+      'no-internal-module': false,
+      'jsx-boolean-value': false,
+      'jsx-no-lambda': false,
+      'no-console': false,
+      'no-constant-condition': true,
+      'no-debugger': true,
+      'no-duplicate-case': true,
+      'no-ex-assign': true,
+      'no-extra-boolean-cast': true,
+      'no-extra-semi': false,
+      'no-extra-semicolon': false,
+      'no-inner-declarations': true,
+      'ter-no-sparse-arrays': true,
+      'valid-typeof': true,
+      'switch-default': true,
+      'triple-equals': true,
+      'forin': true,
+      'ban': true,
+      'no-arg': true,
+      'no-invalid-this': true,
+      'no-magic-numbers': false,
+      'no-duplicate-variable': true,
+      'no-shadowed-variable': true,
+      'handle-callback-err': true,
+      'no-unnecessary-type-assertion': false,
+      'linebreak-style': [true, 'LF'],
+      // 'newline-per-chained-call': true
+    },
+  }
+  

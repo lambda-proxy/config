@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "noEmit": false,
+      "allowJs": false,
+      "composite": true,
+      "declaration": true,
+      "declarationMap": true,
+      "sourceMap": true,
+      "inlineSourceMap": false,
+      "strictNullChecks": true,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": false,
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+      "preserveConstEnums": false,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "stripInternal": true,
+      "pretty": true,
+      "skipLibCheck": true,
+      "noEmitOnError": false,
+      "jsx": "react",
+      "lib": [
+        "es6",
+        "es2017",
+        "es2018.promise"
+      ]
+    }
+  }
